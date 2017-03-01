@@ -4,4 +4,4 @@ Current Main Bug
 2. run 3 clients
 3.Chose Tic Tac Toe For every client
 4. the first client wil not connect Properly , but every other client after will connect. 
-
+line 27 in MainGameServer seems to be the cause:  Socket connectionSocket = listener.accept();
