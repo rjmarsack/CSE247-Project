@@ -5,3 +5,6 @@ Current Main Bug
 3.Chose Tic Tac Toe For every client
 4. the first client wil not connect Properly , but every other client after will connect. 
 line 27 in MainGameServer seems to be the cause:  Socket connectionSocket = listener.accept();
+
+The current GUI for Tic Tac Toe uses image icons, 
+but with the current set up the images are not displayed properly. This will be Fixed in a later itteration. 
